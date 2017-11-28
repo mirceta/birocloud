@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="account-options-api" />
+        <module name="account-options-business-logic" />
+        <module name="account-options-persistence" />
+        <module name="users-api" />
+        <module name="users-business-logic" />
+        <module name="users-persistence" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-options" target="1.8" />
+      <module name="account-options-api" target="1.8" />
+      <module name="account-options-business-logic" target="1.8" />
+      <module name="account-options-persistence" target="1.8" />
+      <module name="accountoptionsapi" target="1.8" />
+      <module name="birocloud" target="1.8" />
+      <module name="persistence" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="user-api" target="1.8" />
+      <module name="user-business-logic" target="1.8" />
+      <module name="user-persistence" target="1.8" />
+      <module name="users" target="1.8" />
+      <module name="users-api" target="1.8" />
+      <module name="users-business-logic" target="1.8" />
+      <module name="users-persistence" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
