@@ -11,5 +11,20 @@
 
     <artifactId>account-options-business-logic</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.kumuluz.ee</groupId>
+            <artifactId>kumuluzee-cdi-weld</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.birokrat.birocloud</groupId>
+            <artifactId>account-options-persistence</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kumuluz.ee.rest</groupId>
+            <artifactId>kumuluzee-rest-core</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>

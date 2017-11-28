@@ -22,7 +22,7 @@ public class AccountOptions {
     @Column(name = "option_key")
     private String key;
 
-    @Column(name = "option_value")
+    @Column(name = "value")
     private String value;
 
     // getter and setter methods

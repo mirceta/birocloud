@@ -67,6 +67,17 @@
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.birokrat.birocloud</groupId>
+                <artifactId>account-options-persistence</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>org.birokrat.birocloud</groupId>
+                <artifactId>account-options-business-logic</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
