@@ -9,6 +9,12 @@
         <module name="account-options-api" />
         <module name="account-options-business-logic" />
         <module name="account-options-persistence" />
+        <module name="company-api" />
+        <module name="company-business-logic" />
+        <module name="company-persistence" />
+        <module name="company-year-api" />
+        <module name="company-year-business-logic" />
+        <module name="company-year-persistence" />
         <module name="users-api" />
         <module name="users-business-logic" />
         <module name="users-persistence" />
@@ -21,6 +27,14 @@
       <module name="account-options-persistence" target="1.8" />
       <module name="accountoptionsapi" target="1.8" />
       <module name="birocloud" target="1.8" />
+      <module name="company" target="1.8" />
+      <module name="company-api" target="1.8" />
+      <module name="company-business-logic" target="1.8" />
+      <module name="company-persistence" target="1.8" />
+      <module name="company-year" target="1.8" />
+      <module name="company-year-api" target="1.8" />
+      <module name="company-year-business-logic" target="1.8" />
+      <module name="company-year-persistence" target="1.8" />
       <module name="persistence" target="1.8" />
       <module name="user" target="1.8" />
       <module name="user-api" target="1.8" />

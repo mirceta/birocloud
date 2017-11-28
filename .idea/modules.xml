@@ -8,6 +8,14 @@
       <module fileurl="file://$PROJECT_DIR$/account-options/account-options-persistence/account-options-persistence.iml" filepath="$PROJECT_DIR$/account-options/account-options-persistence/account-options-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/account-options/accountoptionsapi.iml" filepath="$PROJECT_DIR$/account-options/accountoptionsapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/birocloud.iml" filepath="$PROJECT_DIR$/birocloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company/company.iml" filepath="$PROJECT_DIR$/company/company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company/company-api/company-api.iml" filepath="$PROJECT_DIR$/company/company-api/company-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company/company-business-logic/company-business-logic.iml" filepath="$PROJECT_DIR$/company/company-business-logic/company-business-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company/company-persistence/company-persistence.iml" filepath="$PROJECT_DIR$/company/company-persistence/company-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company-year/company-year.iml" filepath="$PROJECT_DIR$/company-year/company-year.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company-year/company-year-api/company-year-api.iml" filepath="$PROJECT_DIR$/company-year/company-year-api/company-year-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company-year/company-year-business-logic/company-year-business-logic.iml" filepath="$PROJECT_DIR$/company-year/company-year-business-logic/company-year-business-logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company-year/company-year-persistence/company-year-persistence.iml" filepath="$PROJECT_DIR$/company-year/company-year-persistence/company-year-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/users/users.iml" filepath="$PROJECT_DIR$/users/users.iml" />
       <module fileurl="file://$PROJECT_DIR$/users/users-api/users-api.iml" filepath="$PROJECT_DIR$/users/users-api/users-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/users/users-business-logic/users-business-logic.iml" filepath="$PROJECT_DIR$/users/users-business-logic/users-business-logic.iml" />

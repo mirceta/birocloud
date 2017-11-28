@@ -7,6 +7,14 @@
     <file url="file://$PROJECT_DIR$/account-options/account-options-business-logic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/account-options/account-options-persistence" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/account-options/persistence" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company-year" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company-year/company-year-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company-year/company-year-business-logic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company-year/company-year-persistence" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company/company-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company/company-business-logic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/company/company-persistence" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/users" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/users/persistence" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/users/users-api" charset="UTF-8" />

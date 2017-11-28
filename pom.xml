@@ -12,6 +12,8 @@
 
         <module>users</module>
         <module>account-options</module>
+        <module>company</module>
+        <module>company-year</module>
     </modules>
 
 
