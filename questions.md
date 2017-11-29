@@ -7,3 +7,6 @@ http://blog.shippable.com/our-journey-to-microservices-and-a-mono-repository ?
 - How to run an instance of a db in docker:
 
 docker run -d --name postgres-customers -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=customer -p 5432:5432 postgres:latest
+
+
+- Is it possible that jndi won't find a name just because it's lowercase? usersDS vs UsersDS?

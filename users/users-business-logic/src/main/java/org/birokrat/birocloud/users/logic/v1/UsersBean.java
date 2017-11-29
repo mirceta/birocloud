@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // project
-import org.birokrat.birocloud.accountoptions.persistence.v1.AccountOptions;
+//import org.birokrat.birocloud.accountoptions.persistence.v1.AccountOptions;
 import org.birokrat.birocloud.users.persistence.v1.Users;
 
 // javax persistence
@@ -24,7 +24,7 @@ import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.InternalServerErrorException;
 import javax.ws.rs.NotFoundException;
 import javax.ws.rs.core.UriInfo;
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.databind.ObjectMapper;
 
 // apache
 import org.apache.http.HttpEntity;
@@ -38,19 +38,21 @@ import org.apache.http.util.EntityUtils;
 @RequestScoped
 public class UsersBean {
 
-    private ObjectMapper objectMapper;
+    //private ObjectMapper objectMapper;
     private HttpClient httpClient;
     private String basePath;
 
     @Inject
     private UsersBean usersBean;
 
+    /*
     @PostConstruct
     private void init() {
         httpClient = HttpClientBuilder.create().build();
         objectMapper = new ObjectMapper();
         basePath = "http://localhost:8081/v1/";
     }
+    */
 
     @PersistenceContext(unitName = "users-jpa")
     private EntityManager em;
@@ -73,8 +75,8 @@ public class UsersBean {
             throw new NotFoundException();
         }
 
-        List<AccountOptions> userAccountOptions = usersBean.getAccountOptions(userId);
-        user.setAccountOptionsList(userAccountOptions);
+        //List<AccountOptions> userAccountOptions = usersBean.getAccountOptions(userId);
+        //user.setAccountOptionsList(userAccountOptions);
 
         return user;
 
@@ -91,6 +93,7 @@ public class UsersBean {
         return users;
     }
 
+    /*
     public List<AccountOptions> getAccountOptions(String userId) {
         try {
             HttpGet request = new HttpGet(basePath + "/v1/accountoptions?where=userId:EQ:" + userId);
@@ -125,4 +128,5 @@ public class UsersBean {
         return json == null ? new ArrayList<>() : objectMapper.readValue(json,
                 objectMapper.getTypeFactory().constructCollectionType(List.class, Users.class));
     }
+    */
 }
