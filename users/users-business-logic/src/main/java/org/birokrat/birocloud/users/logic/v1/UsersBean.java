@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // project
-//import org.birokrat.birocloud.accountoptions.persistence.v1.AccountOptions;
+import org.birokrat.birocloud.accountoptions.persistence.v1.AccountOptions;
 import org.birokrat.birocloud.users.persistence.v1.Users;
 
 // javax persistence
@@ -56,31 +56,16 @@ public class UsersBean {
     @PersistenceContext(unitName = "users-jpa")
     private EntityManager em;
 
+    /////////// API
+
     public List<Users> getUsers(){
 
         Query query = em.createNamedQuery("Users.getAll", Users.class);
 
-        return query.getResultList();
+        List<Users> users = query.getResultList();
 
+        return addAccountOptionsToUsersList(users);
     }
-
-
-    ///////////// API
-
-    public Users getUser(String userId) {
-        Users user = em.find(Users.class, userId);
-
-        if (user == null) {
-            throw new NotFoundException();
-        }
-
-        //List<AccountOptions> userAccountOptions = usersBean.getAccountOptions(userId);
-        //user.setAccountOptionsList(userAccountOptions);
-
-        return user;
-
-    }
-
 
     public List<Users> getUsersFilter(UriInfo uriInfo) {
 
@@ -89,13 +74,39 @@ public class UsersBean {
 
         List<Users> users = JPAUtils.queryEntities(em, Users.class, queryParameters);
 
+        return addAccountOptionsToUsersList(users);
+    }
+
+
+    ///////////// Auxiliary
+
+    private List<Users> addAccountOptionsToUsersList(List<Users> users) {
+        for (int i = 0; i < users.size(); i++) {
+            Users u = users.get(i);
+            u = getUser(u.getId());
+            users.set(i, u);
+        }
         return users;
     }
 
-    /*
+    public Users getUser(String userId) {
+        Users user = em.find(Users.class, userId);
+
+        if (user == null) {
+            throw new NotFoundException();
+        }
+
+        List<AccountOptions> userAccountOptions = usersBean.getAccountOptions(userId);
+        user.setAccountOptionsList(userAccountOptions);
+
+        return user;
+
+    }
+
+
     public List<AccountOptions> getAccountOptions(String userId) {
         try {
-            HttpGet request = new HttpGet(basePath + "/v1/accountoptions?where=userId:EQ:" + userId);
+            HttpGet request = new HttpGet(basePath + "accountoptions/filtered?filter=userId:EQ:" + userId);
             HttpResponse response = httpClient.execute(request);
 
             int status = response.getStatusLine().getStatusCode();
@@ -120,12 +131,9 @@ public class UsersBean {
 
     }
 
-
-    // Auxiliary
-
     private List<AccountOptions> getObjects(String json) throws IOException {
         return json == null ? new ArrayList<>() : objectMapper.readValue(json,
                 objectMapper.getTypeFactory().constructCollectionType(List.class, Users.class));
     }
-    */
+
 }
