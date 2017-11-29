@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12544437-8e2a-4bec-bcaf-c78b8c742bf4" name="Default" comment="" />
+    <list default="true" id="12544437-8e2a-4bec-bcaf-c78b8c742bf4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plan.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/questions.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/support/create_ao.bash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/support/create_bases.bash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/support/create_users.bash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/support/destroy.bash" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/user/target/" />
@@ -1232,7 +1240,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17517000" />
+    <option name="totallyTimeSpent" value="17596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
