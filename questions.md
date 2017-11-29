@@ -9,4 +9,4 @@ http://blog.shippable.com/our-journey-to-microservices-and-a-mono-repository ?
 docker run -d --name postgres-customers -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=customer -p 5432:5432 postgres:latest
 
 
-- Is it possible that jndi won't find a name just because it's lowercase? usersDS vs UsersDS?
+- Adding AO persistence as a dependency into User persistence, makes it break - JNDI doesn't find the User data source.
