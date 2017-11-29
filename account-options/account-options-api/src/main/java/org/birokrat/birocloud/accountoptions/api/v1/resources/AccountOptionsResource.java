@@ -18,7 +18,7 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 
 @RequestScoped
-@Path("/AccountOptions")
+@Path("/accountoptions")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class AccountOptionsResource {
@@ -27,12 +27,12 @@ public class AccountOptionsResource {
     protected UriInfo uriInfo;
 
     @Inject
-    private AccountOptionsBean AccountOptionsBean;
+    private AccountOptionsBean accountOptionsBean;
 
     @GET
     public Response getAccountOptions() {
 
-        List<AccountOptions> AccountOptions = AccountOptionsBean.getAccountOptions();
+        List<AccountOptions> AccountOptions = accountOptionsBean.getAccountOptions();
 
         return Response.ok(AccountOptions).build();
     }
@@ -43,7 +43,7 @@ public class AccountOptionsResource {
 
         List<AccountOptions> customers;
 
-        customers = AccountOptionsBean.getAccountOptionsFilter(uriInfo);
+        customers = accountOptionsBean.getAccountOptionsFilter(uriInfo);
 
         return Response.status(Response.Status.OK).entity(customers).build();
     }

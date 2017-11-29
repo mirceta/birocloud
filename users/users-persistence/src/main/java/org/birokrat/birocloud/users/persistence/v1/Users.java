@@ -1,5 +1,8 @@
 package org.birokrat.birocloud.users.persistence.v1;
 
+import org.birokrat.birocloud.accountoptions.persistence.v1.AccountOptions;
+
+import java.util.*;
 import org.eclipse.persistence.annotations.UuidGenerator;
 import javax.persistence.*;
 
@@ -22,6 +25,9 @@ public class Users {
     @Column(name = "password")
     private String password;
 
+    @Transient
+    private List<AccountOptions> accountOptionsList;
+
     // getter and setter methods
     public String getId() {
         return id;
@@ -41,5 +47,7 @@ public class Users {
     public void setPassword(String password) {
         this.password = password;
     }
+    public List<AccountOptions> getAccountOptionsList() { return this.accountOptionsList; }
+    public void setAccountOptionsList(List<AccountOptions> opts) { this.accountOptionsList = opts; }
 
 }

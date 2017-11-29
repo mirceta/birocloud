@@ -12,17 +12,31 @@
     <artifactId>users-business-logic</artifactId>
 
     <dependencies>
+        <!-- Kumuluzee imports -->
         <dependency>
             <groupId>com.kumuluz.ee</groupId>
             <artifactId>kumuluzee-cdi-weld</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.kumuluz.ee.rest</groupId>
+            <artifactId>kumuluzee-rest-core</artifactId>
+        </dependency>
+
+        <!-- Inner project imports -->
+        <dependency>
             <groupId>org.birokrat.birocloud</groupId>
             <artifactId>users-persistence</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.kumuluz.ee.rest</groupId>
-            <artifactId>kumuluzee-rest-core</artifactId>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+
+        <!-- Other imports -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>RELEASE</version>
         </dependency>
 
     </dependencies>
