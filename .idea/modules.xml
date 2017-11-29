@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/account-options/account-options-api/account-options-api.iml" filepath="$PROJECT_DIR$/account-options/account-options-api/account-options-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/account-options/account-options-business-logic/account-options-business-logic.iml" filepath="$PROJECT_DIR$/account-options/account-options-business-logic/account-options-business-logic.iml" />
       <module fileurl="file://$PROJECT_DIR$/account-options/account-options-persistence/account-options-persistence.iml" filepath="$PROJECT_DIR$/account-options/account-options-persistence/account-options-persistence.iml" />
-      <module fileurl="file://$PROJECT_DIR$/account-options/accountoptionsapi.iml" filepath="$PROJECT_DIR$/account-options/accountoptionsapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/birocloud.iml" filepath="$PROJECT_DIR$/birocloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/company/company.iml" filepath="$PROJECT_DIR$/company/company.iml" />
       <module fileurl="file://$PROJECT_DIR$/company/company-api/company-api.iml" filepath="$PROJECT_DIR$/company/company-api/company-api.iml" />

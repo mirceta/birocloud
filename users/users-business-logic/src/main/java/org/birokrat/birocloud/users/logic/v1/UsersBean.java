@@ -24,7 +24,7 @@ import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.InternalServerErrorException;
 import javax.ws.rs.NotFoundException;
 import javax.ws.rs.core.UriInfo;
-//import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 // apache
 import org.apache.http.HttpEntity;
@@ -38,21 +38,20 @@ import org.apache.http.util.EntityUtils;
 @RequestScoped
 public class UsersBean {
 
-    //private ObjectMapper objectMapper;
+    private ObjectMapper objectMapper;
     private HttpClient httpClient;
     private String basePath;
 
     @Inject
     private UsersBean usersBean;
 
-    /*
+
     @PostConstruct
     private void init() {
         httpClient = HttpClientBuilder.create().build();
         objectMapper = new ObjectMapper();
         basePath = "http://localhost:8081/v1/";
     }
-    */
 
     @PersistenceContext(unitName = "users-jpa")
     private EntityManager em;
