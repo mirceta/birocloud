@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12544437-8e2a-4bec-bcaf-c78b8c742bf4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/users-api/target/classes/META-INF/kumuluzee/boot-loader.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account-options/account-options-api/target/account-options-api-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/account-options/account-options-api/target/account-options-api-1.0-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/users-api/target/users-api-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/users/users-api/target/users-api-1.0-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,7 +13,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/company-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/company/company-api/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/company-business-logic/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/company/company-business-logic/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company/company-persistence/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/company/company-persistence/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/docs/questions.md" afterPath="$PROJECT_DIR$/support/docs/questions.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/users-business-logic/src/main/java/org/birokrat/birocloud/users/logic/v1/UsersBean.java" afterPath="$PROJECT_DIR$/users/users-business-logic/src/main/java/org/birokrat/birocloud/users/logic/v1/UsersBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/users-business-logic/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/users/users-business-logic/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/users-persistence/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/users/users-persistence/target/maven-archiver/pom.properties" />
@@ -91,8 +89,8 @@
       <file leaf-file-name="UsersBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users/users-business-logic/src/main/java/org/birokrat/birocloud/users/logic/v1/UsersBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="108" column="12" lean-forward="false" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+            <state relative-caret-position="162">
+              <caret line="135" column="105" lean-forward="true" selection-start-line="135" selection-start-column="105" selection-end-line="135" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1027,12 +1025,12 @@
       <updated>1511865416016</updated>
       <workItem from="1511865420321" duration="1855000" />
       <workItem from="1511867308652" duration="15652000" />
-      <workItem from="1511971772695" duration="3236000" />
+      <workItem from="1511971772695" duration="3464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22767000" />
+    <option name="totallyTimeSpent" value="22995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1090,14 +1088,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/users/users-business-logic/src/main/java/org/birokrat/birocloud/users/logic/v1/UsersBean.java</url>
-          <line>108</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
@@ -1425,8 +1415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/users-business-logic/src/main/java/org/birokrat/birocloud/users/logic/v1/UsersBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="108" column="12" lean-forward="false" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+        <state relative-caret-position="162">
+          <caret line="135" column="105" lean-forward="true" selection-start-line="135" selection-start-column="105" selection-end-line="135" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

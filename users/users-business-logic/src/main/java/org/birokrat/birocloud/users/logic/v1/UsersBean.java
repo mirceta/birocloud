@@ -133,7 +133,7 @@ public class UsersBean {
 
     private List<AccountOptions> getObjects(String json) throws IOException {
         return json == null ? new ArrayList<>() : objectMapper.readValue(json,
-                objectMapper.getTypeFactory().constructCollectionType(List.class, Users.class));
+                objectMapper.getTypeFactory().constructCollectionType(List.class, AccountOptions.class));
     }
 
 }
